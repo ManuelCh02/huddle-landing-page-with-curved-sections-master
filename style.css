@@ -175,17 +175,6 @@ header {
     width: 100%;
 }
 
-/* .grow-tg span {
-    position: absolute;
-    display: inline-block;
-    width: 100%;
-    height: auto;
-    background-image: url('./assets/img/bg-section-top-mobile-1.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-} */
-
 .grow-content {
     padding: 70px 30px;
     background-color: #f6fbff;
@@ -202,7 +191,7 @@ header {
 }
 
 .grow-content-txt h2 {
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-family: var(--poppins);
     color: var(--very-dark-cyan);
 }
@@ -221,8 +210,76 @@ header {
 
 /* Fourth Section */
 .flowing-tg {
-    
+    padding: 40px 30px;
+    text-align: center;
 }
+
+.flowing-tg img {
+    padding: 30px;
+    width: 100%;
+}
+
+.flowing-tg h2 {
+    font-size: 2rem;
+    font-family: var(--poppins);
+    color: var(--very-dark-cyan);
+}
+
+.flowing-tg p {
+    padding-top: 20px;
+    font-size: 1.4rem;
+    font-family: var(--open-sans);
+    color: var(--very-dark-cyan);
+}
+
+
+/* Fifth Section */
+.users-tg {
+    padding: 210px 0;
+    position: relative;
+}
+
+.bg-top-2 {
+    position: absolute;
+    bottom: calc(100% - 210px);
+    width: 100%;
+}
+
+.users-content {
+    padding: 0 30px;
+    padding-bottom: 140px;
+    background-color: #f6fbff;
+}
+
+.users-content img {
+    padding: 30px;
+    width: 100%;
+}
+
+.users-content-txt {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.users-content-txt h2 {
+    font-size: 2rem;
+    font-family: var(--poppins);
+    color: var(--very-dark-cyan);
+}
+
+.users-content-txt p {
+    padding-top: 20px;
+    font-size: 1.4rem;
+    font-family: var(--open-sans);
+    color: var(--very-dark-cyan);
+}
+
+.bg-bottom-2 {
+    width: 100%;
+}
+
+
+
 
 img {
     width: 250px;
