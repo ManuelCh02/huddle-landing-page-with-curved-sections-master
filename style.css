@@ -236,6 +236,7 @@ header {
 /* Fifth Section */
 .users-tg {
     padding: 210px 0;
+    padding-bottom: 0;
     position: relative;
 }
 
@@ -279,8 +280,27 @@ header {
 }
 
 
+/* Sixth Section */
+.build-comm {
+    margin: 100px 0 200px 0;
+    text-align: center;
+}
 
+.build-comm h2 {
+    font-size: 2.4rem;
+    font-family: var(--poppins);
+    color: var(--very-dark-cyan);
+}
 
-img {
-    width: 250px;
+.build-comm button {
+    margin-top: 30px;
+    padding: 13px 40px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: var(--pink);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 32px;
+    outline: none;
+    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2);
 }
