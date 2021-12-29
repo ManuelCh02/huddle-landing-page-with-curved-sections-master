@@ -95,7 +95,7 @@ header {
 }
 
 .community img {
-    width: 100%;
+    width: 100%; 
 }
 
 .communities-ford {
@@ -176,8 +176,16 @@ header {
 }
 
 .grow-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grow-content {
     padding: 70px 30px;
     background-color: #f6fbff;
+    justify-content: center;
+    align-items: center;
 }
 
 .grow-content img {
@@ -188,6 +196,8 @@ header {
 .grow-content-txt {
     padding-top: 40px;
     text-align: center;
+    max-width: 450px;
+    margin: 0 auto;
 }
 
 .grow-content-txt h2 {
@@ -217,6 +227,13 @@ header {
 .flowing-tg img {
     padding: 30px;
     width: 100%;
+}
+
+.flowing-content-txt {
+    padding-top: 40px;
+    text-align: center;
+    max-width: 450px;
+    margin: 0 auto;
 }
 
 .flowing-tg h2 {
@@ -262,6 +279,13 @@ header {
     text-align: center;
 }
 
+.users-content-txt {
+    padding-top: 40px;
+    text-align: center;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
 .users-content-txt h2 {
     font-size: 2rem;
     font-family: var(--poppins);
@@ -282,7 +306,7 @@ header {
 
 /* Sixth Section */
 .build-comm {
-    margin: 100px 0 200px 0;
+    margin: 200px 0 300px 0;
     text-align: center;
 }
 
@@ -438,4 +462,51 @@ footer {
 
 .social {
     width: 40px;
+}
+
+/**/
+.max-width {
+    margin: 0 auto;
+    min-width: 200px;
+    max-width: 500px;
+}
+
+.bg-top-2,
+.footer-bg-top {
+    max-height: 120px;
+}
+
+@media (min-width: 480px) {
+    .prin-sec p {
+        margin: 0 auto;
+        width: 420px;
+    }
+}
+
+@media (min-width: 675px) {
+    .grow-content,
+    .users-content {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grow-content-txt h2, 
+    .grow-content p,
+    .flowing-content-txt,
+    .users-content-txt {
+        text-align: start;
+    }
+
+    .flowing-tg {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .build-comm {
+        margin-top: 100px;
+    }
 }
